@@ -20,13 +20,11 @@ const Card = () => {
         <img src={avatar_url} alt={name} />
         <div>
           <h4>{name}</h4>
-          <p>@{twitter_username || 'brat nema twitter'}</p>
+          <p>@{twitter_username || 'noo info'}</p>
         </div>
         <a href={html_url}>Follow</a>
       </header>
-      <p className='bio clr-white'>
-        {bio || 'I can write Hello World! in any priogramming language'}
-      </p>
+      <p className='bio clr-white'>{bio || 'no info'}</p>
       <div className='links'>
         <p>
           <MdBusiness />
